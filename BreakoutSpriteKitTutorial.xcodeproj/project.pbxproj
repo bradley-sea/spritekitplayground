@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26969691954ED8A006780AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26969681954ED8A006780AB /* AppDelegate.swift */; };
+		A269696B1954ED8A006780AB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269696A1954ED8A006780AB /* GameViewController.swift */; };
+		A269696E1954ED8A006780AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A269696C1954ED8A006780AB /* Main.storyboard */; };
+		A26969701954ED8A006780AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A269696F1954ED8A006780AB /* Images.xcassets */; };
+		A269697C1954ED8A006780AB /* BreakoutSpriteKitTutorialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A269697B1954ED8A006780AB /* BreakoutSpriteKitTutorialTests.swift */; };
+		A26969941954EDBA006780AB /* assets.atlas in Resources */ = {isa = PBXBuildFile; fileRef = A26969851954EDBA006780AB /* assets.atlas */; };
+		A26969951954EDBA006780AB /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969861954EDBA006780AB /* ball.png */; };
+		A26969961954EDBA006780AB /* ball@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969871954EDBA006780AB /* ball@2x~ipad.png */; };
+		A26969971954EDBA006780AB /* ball~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969881954EDBA006780AB /* ball~ipad.png */; };
+		A26969981954EDBA006780AB /* block.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969891954EDBA006780AB /* block.png */; };
+		A26969991954EDBA006780AB /* block@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A269698A1954EDBA006780AB /* block@2x~ipad.png */; };
+		A269699A1954EDBA006780AB /* block~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A269698B1954EDBA006780AB /* block~ipad.png */; };
+		A269699B1954EDBA006780AB /* paddle.png in Resources */ = {isa = PBXBuildFile; fileRef = A269698C1954EDBA006780AB /* paddle.png */; };
+		A269699C1954EDBA006780AB /* paddle@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A269698D1954EDBA006780AB /* paddle@2x~ipad.png */; };
+		A269699D1954EDBA006780AB /* paddle~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A269698E1954EDBA006780AB /* paddle~ipad.png */; };
+		A269699E1954EDBA006780AB /* bg@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969901954EDBA006780AB /* bg@2x~ipad.png */; };
+		A269699F1954EDBA006780AB /* bg@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969911954EDBA006780AB /* bg@2x~iphone.png */; };
+		A26969A01954EDBA006780AB /* bg~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969921954EDBA006780AB /* bg~ipad.png */; };
+		A26969A11954EDBA006780AB /* bg~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A26969931954EDBA006780AB /* bg~iphone.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A26969761954ED8A006780AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A269695B1954ED89006780AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A26969621954ED8A006780AB;
+			remoteInfo = BreakoutSpriteKitTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A26969631954ED8A006780AB /* BreakoutSpriteKitTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BreakoutSpriteKitTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26969671954ED8A006780AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26969681954ED8A006780AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A269696A1954ED8A006780AB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		A269696D1954ED8A006780AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A269696F1954ED8A006780AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A26969751954ED8A006780AB /* BreakoutSpriteKitTutorialTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BreakoutSpriteKitTutorialTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A269697A1954ED8A006780AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A269697B1954ED8A006780AB /* BreakoutSpriteKitTutorialTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakoutSpriteKitTutorialTests.swift; sourceTree = "<group>"; };
+		A26969851954EDBA006780AB /* assets.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = assets.atlas; sourceTree = "<group>"; };
+		A26969861954EDBA006780AB /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
+		A26969871954EDBA006780AB /* ball@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x~ipad.png"; sourceTree = "<group>"; };
+		A26969881954EDBA006780AB /* ball~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball~ipad.png"; sourceTree = "<group>"; };
+		A26969891954EDBA006780AB /* block.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = block.png; sourceTree = "<group>"; };
+		A269698A1954EDBA006780AB /* block@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block@2x~ipad.png"; sourceTree = "<group>"; };
+		A269698B1954EDBA006780AB /* block~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "block~ipad.png"; sourceTree = "<group>"; };
+		A269698C1954EDBA006780AB /* paddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paddle.png; sourceTree = "<group>"; };
+		A269698D1954EDBA006780AB /* paddle@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paddle@2x~ipad.png"; sourceTree = "<group>"; };
+		A269698E1954EDBA006780AB /* paddle~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paddle~ipad.png"; sourceTree = "<group>"; };
+		A26969901954EDBA006780AB /* bg@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x~ipad.png"; sourceTree = "<group>"; };
+		A26969911954EDBA006780AB /* bg@2x~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x~iphone.png"; sourceTree = "<group>"; };
+		A26969921954EDBA006780AB /* bg~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg~ipad.png"; sourceTree = "<group>"; };
+		A26969931954EDBA006780AB /* bg~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg~iphone.png"; sourceTree = "<group>"; };
+		A2F3923B19560E3C0016CB8C /* MyPlayground2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground2.playground; sourceTree = SOURCE_ROOT; };
+		A2F3923C1956117D0016CB8C /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26969601954ED8A006780AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26969721954ED8A006780AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A269695A1954ED89006780AB = {
+			isa = PBXGroup;
+			children = (
+				A2F3923C1956117D0016CB8C /* MyPlayground.playground */,
+				A26969651954ED8A006780AB /* BreakoutSpriteKitTutorial */,
+				A26969781954ED8A006780AB /* BreakoutSpriteKitTutorialTests */,
+				A26969641954ED8A006780AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26969641954ED8A006780AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26969631954ED8A006780AB /* BreakoutSpriteKitTutorial.app */,
+				A26969751954ED8A006780AB /* BreakoutSpriteKitTutorialTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26969651954ED8A006780AB /* BreakoutSpriteKitTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				A2F3923B19560E3C0016CB8C /* MyPlayground2.playground */,
+				A26969681954ED8A006780AB /* AppDelegate.swift */,
+				A269696A1954ED8A006780AB /* GameViewController.swift */,
+				A269696C1954ED8A006780AB /* Main.storyboard */,
+				A26969851954EDBA006780AB /* assets.atlas */,
+				A26969861954EDBA006780AB /* ball.png */,
+				A26969871954EDBA006780AB /* ball@2x~ipad.png */,
+				A26969881954EDBA006780AB /* ball~ipad.png */,
+				A26969891954EDBA006780AB /* block.png */,
+				A269698A1954EDBA006780AB /* block@2x~ipad.png */,
+				A269698B1954EDBA006780AB /* block~ipad.png */,
+				A269698C1954EDBA006780AB /* paddle.png */,
+				A269698D1954EDBA006780AB /* paddle@2x~ipad.png */,
+				A269698E1954EDBA006780AB /* paddle~ipad.png */,
+				A269698F1954EDBA006780AB /* backgrounds */,
+				A269696F1954ED8A006780AB /* Images.xcassets */,
+				A26969661954ED8A006780AB /* Supporting Files */,
+			);
+			path = BreakoutSpriteKitTutorial;
+			sourceTree = "<group>";
+		};
+		A26969661954ED8A006780AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A26969671954ED8A006780AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A26969781954ED8A006780AB /* BreakoutSpriteKitTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				A269697B1954ED8A006780AB /* BreakoutSpriteKitTutorialTests.swift */,
+				A26969791954ED8A006780AB /* Supporting Files */,
+			);
+			path = BreakoutSpriteKitTutorialTests;
+			sourceTree = "<group>";
+		};
+		A26969791954ED8A006780AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A269697A1954ED8A006780AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A269698F1954EDBA006780AB /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				A26969901954EDBA006780AB /* bg@2x~ipad.png */,
+				A26969911954EDBA006780AB /* bg@2x~iphone.png */,
+				A26969921954EDBA006780AB /* bg~ipad.png */,
+				A26969931954EDBA006780AB /* bg~iphone.png */,
+			);
+			path = backgrounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26969621954ED8A006780AB /* BreakoutSpriteKitTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A269697F1954ED8A006780AB /* Build configuration list for PBXNativeTarget "BreakoutSpriteKitTutorial" */;
+			buildPhases = (
+				A269695F1954ED8A006780AB /* Sources */,
+				A26969601954ED8A006780AB /* Frameworks */,
+				A26969611954ED8A006780AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BreakoutSpriteKitTutorial;
+			productName = BreakoutSpriteKitTutorial;
+			productReference = A26969631954ED8A006780AB /* BreakoutSpriteKitTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A26969741954ED8A006780AB /* BreakoutSpriteKitTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26969821954ED8A006780AB /* Build configuration list for PBXNativeTarget "BreakoutSpriteKitTutorialTests" */;
+			buildPhases = (
+				A26969711954ED8A006780AB /* Sources */,
+				A26969721954ED8A006780AB /* Frameworks */,
+				A26969731954ED8A006780AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A26969771954ED8A006780AB /* PBXTargetDependency */,
+			);
+			name = BreakoutSpriteKitTutorialTests;
+			productName = BreakoutSpriteKitTutorialTests;
+			productReference = A26969751954ED8A006780AB /* BreakoutSpriteKitTutorialTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A269695B1954ED89006780AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Bradley Johnson";
+				TargetAttributes = {
+					A26969621954ED8A006780AB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					A26969741954ED8A006780AB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A26969621954ED8A006780AB;
+					};
+				};
+			};
+			buildConfigurationList = A269695E1954ED89006780AB /* Build configuration list for PBXProject "BreakoutSpriteKitTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A269695A1954ED89006780AB;
+			productRefGroup = A26969641954ED8A006780AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26969621954ED8A006780AB /* BreakoutSpriteKitTutorial */,
+				A26969741954ED8A006780AB /* BreakoutSpriteKitTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26969611954ED8A006780AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A269699D1954EDBA006780AB /* paddle~ipad.png in Resources */,
+				A269696E1954ED8A006780AB /* Main.storyboard in Resources */,
+				A269699B1954EDBA006780AB /* paddle.png in Resources */,
+				A26969A01954EDBA006780AB /* bg~ipad.png in Resources */,
+				A26969981954EDBA006780AB /* block.png in Resources */,
+				A26969701954ED8A006780AB /* Images.xcassets in Resources */,
+				A269699E1954EDBA006780AB /* bg@2x~ipad.png in Resources */,
+				A26969951954EDBA006780AB /* ball.png in Resources */,
+				A26969971954EDBA006780AB /* ball~ipad.png in Resources */,
+				A26969991954EDBA006780AB /* block@2x~ipad.png in Resources */,
+				A26969A11954EDBA006780AB /* bg~iphone.png in Resources */,
+				A269699F1954EDBA006780AB /* bg@2x~iphone.png in Resources */,
+				A269699A1954EDBA006780AB /* block~ipad.png in Resources */,
+				A26969941954EDBA006780AB /* assets.atlas in Resources */,
+				A26969961954EDBA006780AB /* ball@2x~ipad.png in Resources */,
+				A269699C1954EDBA006780AB /* paddle@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26969731954ED8A006780AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A269695F1954ED8A006780AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A269696B1954ED8A006780AB /* GameViewController.swift in Sources */,
+				A26969691954ED8A006780AB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A26969711954ED8A006780AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A269697C1954ED8A006780AB /* BreakoutSpriteKitTutorialTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A26969771954ED8A006780AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A26969621954ED8A006780AB /* BreakoutSpriteKitTutorial */;
+			targetProxy = A26969761954ED8A006780AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A269696C1954ED8A006780AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A269696D1954ED8A006780AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A269697D1954ED8A006780AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A269697E1954ED8A006780AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26969801954ED8A006780AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BreakoutSpriteKitTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A26969811954ED8A006780AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BreakoutSpriteKitTutorial/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A26969831954ED8A006780AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BreakoutSpriteKitTutorial.app/BreakoutSpriteKitTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BreakoutSpriteKitTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		A26969841954ED8A006780AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BreakoutSpriteKitTutorial.app/BreakoutSpriteKitTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BreakoutSpriteKitTutorialTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A269695E1954ED89006780AB /* Build configuration list for PBXProject "BreakoutSpriteKitTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A269697D1954ED8A006780AB /* Debug */,
+				A269697E1954ED8A006780AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A269697F1954ED8A006780AB /* Build configuration list for PBXNativeTarget "BreakoutSpriteKitTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26969801954ED8A006780AB /* Debug */,
+				A26969811954ED8A006780AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26969821954ED8A006780AB /* Build configuration list for PBXNativeTarget "BreakoutSpriteKitTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26969831954ED8A006780AB /* Debug */,
+				A26969841954ED8A006780AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A269695B1954ED89006780AB /* Project object */;
+}
